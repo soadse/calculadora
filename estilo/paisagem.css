@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 body {
+    position: fixed;
     display: flex;
     justify-content: end;
     background-color: black;
@@ -33,24 +34,31 @@ body {
     display: flex;
     justify-content: center;
     width: 50%;
-    height: 92vh;
+    height: 100%;
 }
 
-
+#teclado {
+    background-color: black;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 #teclado > #row1 .row1{
-    height: 65px;
+    height: 50px;
 }
 #teclado > #row2 .row2{
-    height: 65px;
+    height: 50px;
 }
 #teclado > #row3 .row3{
-    height: 65px;
+    height: 50px;
 }
 #teclado > #row4 .row4{
-    height: 65x;
+    height: 50px;
 }
 #teclado > #row5 .row5{
-    height: 65px;
+    height: 50px;
 }
 
 
