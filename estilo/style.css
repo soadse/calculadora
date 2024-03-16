@@ -13,6 +13,9 @@ body {
     justify-content: center;
     align-items: center;
 }
+#resultado2 {
+    display: none;
+}
 #calculadora {
     background-color: black;
     display: flex;
@@ -185,7 +188,7 @@ body {
 
 
 #row5 > #zero {
-    width: 170px;
+    width: 180px;
     border-radius: 50px;
 }
 

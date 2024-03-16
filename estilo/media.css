@@ -8,40 +8,12 @@ Desktops(computador, large screens – 1025px — 1366px.
 Extra large screens, TV – 1367px, and more
 */
 
-@media screen and (min-width:481px) and (max-width:768px){
+@media screen and (min-width:481px){
+    #resultado2 {
+        display: none;
+    }
     #calculadora {
-        width: 100%;
-        padding: 10px;
-    }
-    #row1 > .row1 {
-        width: 175px;
-        border-radius: 10px;
-    }
-    #row2 > .row2 {
-        width: 175px;
-        border-radius: 10px;
-    }
-    #row3 > .row3 {
-        width: 175px;
-        border-radius: 10px;
-    }
-    #row4 > .row4 {
-        width: 175px;
-        border-radius: 10px;
-    }
-    #row5 > #zero {
-        width: 360px;
-        border-radius: 10px;
-    }
-    #row5 > .row5 {
-        border-radius: 10px;
-        width: 175px;
-    }
-}
-
-@media screen and (min-width:769px){
-    #calculadora {
-        width: 769px;
+        max-width: 700px;
         padding: 10px;
     }
     #row1 > .row1 {
