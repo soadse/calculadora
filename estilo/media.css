@@ -8,3 +8,10 @@ Desktops(computador, large screens – 1025px — 1366px.
 Extra large screens, TV – 1367px, and more
 */
 
+@media screen and (min-width:481px) {
+    #calculadora {
+        width: 360px;
+        padding: 10px;
+    }
+    
+}
