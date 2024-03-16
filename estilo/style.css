@@ -30,7 +30,7 @@ body {
     align-items: end;
     font-size: 5em;
     width: 360px;
-    height: 100vh;
+    background-color: green;
     color: white;
 }
 #resultado {
