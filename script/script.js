@@ -1,0 +1,1 @@
+var acumular = window.document
