@@ -9,6 +9,14 @@ Extra large screens, TV – 1367px, and more
 */
 
 @media screen and (min-width:481px){
+    body {
+        width: 100%;
+        height: 100vh;
+    }
+    #calculadora {
+        width: 100%;
+        height: 90vh;
+    }
     #resultado2 {
         display: none;
     }
