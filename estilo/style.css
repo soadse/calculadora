@@ -29,16 +29,15 @@ body {
     justify-content: end;
     align-items: end;
     font-size: 5em;
-    width: 360px;
+    width: 100%;
     color: white;
 }
 #resultado {
     padding: 25px;
 }
 #teclado {
-    width: 360px;
+    width: 100%;
 }
-
 
 
 
