@@ -7,28 +7,26 @@
 }
 
 body {
+    background-color: black;
     width: 100%;
-    height: 100vh;
+    height: 96vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #calculadora {
+    background-color: black;
     display: flex;
     justify-content: end;
     align-items: center;
     flex-direction: column;
-    background-color: black;
     width: 100%;
     height: 100%;
-    background-color: red;
 }
 
 
-#tela {
-    display: flex;
-    justify-content: end;
-    align-items: end;
+#tela {   
+    text-align: end;
     font-size: 5em;
     width: 100%;
     color: white;
@@ -186,10 +184,14 @@ body {
 }
 
 
+
 #row5 > #zero {
-    width: 50%;
+    width: 170px;
     border-radius: 50px;
 }
+
+
+
 
 #teclado  .orange{
     background-color: orange;
