@@ -8,9 +8,3 @@ Desktops(computador, large screens – 1025px — 1366px.
 Extra large screens, TV – 1367px, and more
 */
 
-@media screen and (min-width:361px) {
-    body {
-        background-color: blue;
-    }
-    
-}
