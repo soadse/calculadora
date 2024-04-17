@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilo/principal.css">
+</head>
+<body>
+    <div id="container">
+        <div id="resultado">
+            <input type="text" id="display" placeholder="00">
+        </div>
+        <div class="coluna">
+            <input type="button" class="numeros num" value="7" onclick="addNum('7')">
+            <input type="button" class="numeros num" value="8" onclick="addNum('8')">
+            <input type="button" class="numeros num" value="9" onclick="addNum('9')">
+            <input type="button" class="numeros som" value="x" onclick="addNum('*')">
+        </div>
+
+        <div class="coluna">
+            <input type="button" class="numeros num" value="4" onclick="addNum('4')">
+            <input type="button" class="numeros num" value="5" onclick="addNum('5')">
+            <input type="button" class="numeros num" value="6" onclick="addNum('6')">
+            <input type="button" class="numeros som" value="-" onclick="addNum('-')">
+        </div>
+
+        <div class="coluna">
+            <input type="button" class="numeros num" value="1" onclick="addNum('1')">
+            <input type="button" class="numeros num" value="2" onclick="addNum('2')">
+            <input type="button" class="numeros num" value="3" onclick="addNum('3')">
+            <input type="button" class="numeros som" value="+" onclick="addNum('+')">
+        </div>
+
+        <div class="coluna">
+            <input type="button" class="numeros som" value="0" onclick="addNum('0')">
+            <input type="button" class="numeros som" value="/" onclick="addNum('/')">
+            <input type="button" class="numeros som" value="C" onclick="limpaNum()">
+            <input type="button" class="numeros som" value="=" onclick="somaNum()">
+        </div>
+    </div>
+    
+
+    <script src="script/script.js"></script>
+</body>
+</html>
