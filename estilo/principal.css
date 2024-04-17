@@ -65,7 +65,7 @@ body {
     color: white;
 }
 #container > .coluna > .num:hover {
-    animation: cor1 forwards .5s;
+    animation: cor1 forwards .2s;
 }
 @keyframes cor1 {
     0% {
@@ -90,7 +90,7 @@ body {
     background-color: orange;
 }
 #container > .coluna > .som:hover {
-    animation: cor2 forwards .5s;
+    animation: cor2 forwards .2s;
 }
 @keyframes cor2 {
     0% {
